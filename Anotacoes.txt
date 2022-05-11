@@ -1,0 +1,5 @@
+Quanto mais seguro o programa, maior o programa.
+
+byte = 8 bits;
+
+
