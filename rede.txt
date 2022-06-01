@@ -18,7 +18,7 @@ Rede de redes não permite que a internet caia.
 
 Ethernet 10mb;
 Fat 100mb
-giga Bit 1000mb
+giga Bit 1000mb é o padrão de placade rede mais rapido.
 
 Par trançado suporta até gigabit.
 
@@ -33,6 +33,7 @@ DNS- Servico de nome dinamico.
 
 DNS mais conhecido como 8.8.8 da google;
 
+os cabos de pares trançados cat5e alcançam até 1000Mbits.
 
 Endereco de nome, ip e mac...(numero aleatorio hexadecimal)
 Hub só vai por ip;
@@ -48,17 +49,17 @@ Analogico - Ondas. Reais. Microfone e radio.
 Digital - Ondas quadradas. Ligação entre computadores.
 
 
-camada 4 - aplicação: chrome, email. Usuarios utilizam
+camada 4 - aplicação: chrome, email. Usuarios utilizam; HTTP, FTP, ISMTP, POP3
 camada 3- transporte: udp- discord, tcp - todo o resto.
-camada 2- internet: enderecos e IP, dns
-camada 1- rede: ethernet, gigaethenert, a conexão.
+camada 2- internet: enderecos e IP, dns. ARP.
+camada 1- rede: ethernet, gigaethenert, a conexão.RJ45, KEYSTAONE.
 
-cabo ethenet - rj45.
+conector decabo ethenet - rj45é o masi usado.
 token - auxiliar(algo que auxilia) - Só Transmite quem tem o token, não tem colisão. Ethernet ettm colisão.
 SMMP - email
 DNS -tabela de enome
 SMTP- email
-FTP- dolowad
+FTP- DOWNload
 
 
 Endereçamento de IP v4 - 32 bits - 4 bilhões. - Solução: roteamento
@@ -73,8 +74,24 @@ IP v6 - 128 bits - 340 bilhões.
 
 Mascara é o endereco da rede. sem mascara não dá para rotear. Conecta em algo, é uma subrede. Escrita em binaria.
 
+wireless = wi-fi
+dibra óptica = wan
+par-trançado = lan
+dns= www.google.com
+01-00-5e-00-00-fb = mac
+
+ftp é o serviço que utilizamos para atransferenc de arquivos via internet.
+dns é o serviço que utilizamos para a resolução dos nomes ips;
+a porta masi utilizada pelo serviço de ftp é o 21.
 
 
+
+Verdadeiras:
+cmd>arp-a mostra s endereços fisicos dos dispositivos. 
+cmd>ping faz teste de conexaão com lan e wan.
+cmd>hostname = mosntra o nome do dominio do computador.
+cmd>tracert mostra a rota dos pacotes até o destino.
+cmd>ipconfig /all mostra o enedreço fisico do compuador e o ip.
 
 
 
