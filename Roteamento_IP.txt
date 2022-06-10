@@ -42,7 +42,7 @@ loopback - 127.0.0.1
 dhsp - fornece o ip.
 
 Os cabos pares trançados também conhecidos como patch cord utilizan conectores RJ45 macho.
-Não podemos utilizar cabos de energia para conectar computadores a uma rede LAN devido a sua tenção e corrente alternada.
+Podemos utilizar cabos de energia para conectar computadores a uma rede LAN devido a sua tenção e corrente alternada.
 O serviço de DNS serve para distribuir endereços IPs para os computadores de uma rede deve ser configurado com um "range" escopo de IPs reservados, classe A, B ou C.
  IPv4192.168.0.25/24. -- 255.255.255.0
 
